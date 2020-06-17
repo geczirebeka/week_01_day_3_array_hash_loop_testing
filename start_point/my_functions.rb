@@ -11,7 +11,7 @@ def sum_array(numbers)
     return total
 end
 
-def is_itm_in_array((array_of_houses, item)
+def is_item_in_array(array_of_houses, item)
     for house in array_of_houses
         if (house == item)
             return true

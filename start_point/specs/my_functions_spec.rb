@@ -11,7 +11,7 @@ class MyFunctionsTest < MiniTest::Test
 
   def test_add_length_of_arrays
     # arrange
-    citrues_fruits = [ "lemon", "orange" ]
+    citrus_fruits = [ "lemon", "orange" ]
     berries = [ "strawberry", "blackberry", "raspberry" ]
     # act
     result = add_array_lengths( citrus_fruits, berries )
