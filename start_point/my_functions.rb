@@ -19,3 +19,7 @@ def is_item_in_array(array_of_houses, item)
     end
     return false
 end
+
+def get_first_key(hash_of_wallets)
+    return hash_of_wallets.keys[0]
+end
